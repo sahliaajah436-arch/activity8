@@ -178,7 +178,7 @@ public:
         else
             cout << "\nRecord found: " << current->noMhs << endl;
     }
-}
+};
 
 int main()
 {
@@ -227,9 +227,5 @@ int main()
 
     } while (choice != '6');
 
-
-
-
-
-
-};
+    return 0;
+}
