@@ -61,6 +61,16 @@ public:
             return;
         }
 
-        
+        // Step 5: Insert between nodes
+        newNode->next = current->next;
+
+        if (current->next != NULL)
+            current->next->prev = newNode;
+
+        current->next = newNode;
+        newNode->prev = current;
+    }
+
+
     }
 };
