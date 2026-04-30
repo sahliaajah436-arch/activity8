@@ -96,5 +96,13 @@ public:
             return;
         }
 
+        if (current == START)
+        {
+            START = current->next;
+            if (START != NULL)
+                START->prev = NULL;
+        }
+        
+
     }
 };
