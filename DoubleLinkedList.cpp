@@ -178,7 +178,27 @@ public:
         else
             cout << "\nRecord found: " << current->noMhs << endl;
     }
-};
+}
 
-    }
+int main()
+{
+    DoubleLinkedList list;
+    char choice;
+
+    do
+    {
+        cout << "\nMenu";
+        cout << "\n1. Add Record";
+        cout << "\n2. Delete Record";
+        cout << "\n3. Traverse";
+        cout << "\n4. Reverse Traverse";
+        cout << "\n5. Search";
+        cout << "\n6. Exit";
+        cout << "\nEnter your choice: ";
+
+        cin >> choice;
+
+
+
+
 };
