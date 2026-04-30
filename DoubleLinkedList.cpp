@@ -71,6 +71,22 @@ public:
         newNode->prev = current;
     }
 
+    void delNode()
+    {
+        if (START == NULL)
+        {
+            cout << "\nList is empty" << endl;
+            return;
+        }
+
+        int rollNo;
+        cout << "\nEnter the roll number to delete: ";
+        cin >> rollNo;
+
+        Node *current = START;
+
+
+
 
     }
 };
