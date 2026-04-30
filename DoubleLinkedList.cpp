@@ -48,5 +48,11 @@ public:
             START = newNode;
             return;
         }
+        // Step 4: Traverse to find position
+        Node *current = START;
+        while (current->next != NULL && current->next->noMhs < nim)
+        {
+            current = current->next;
+        }
     }
 };
